@@ -1,13 +1,9 @@
-
-
 def calculate_total(price, quantity):
-    discount = 10
     total = price * quantity
+    return total
+
 
 def get_status(code):
     if code == 200:
         result = "OK"
-    return result
-
-
-
+        return result
